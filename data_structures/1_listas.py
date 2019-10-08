@@ -74,7 +74,13 @@ numbers  = [17, 20, 5, 10, 7]
 numbers.sort(reverse=True)
 
 # 11. Guarda en una variable la longitud de la lista de números
-
+numbers  = ['17', '20', '5', '10', '7']
+len(numbers)
 # 12. Saca el mínimo, máximo y la suma de la lista de númeris
-
+min(numbers)
+max(numbers)
+sum(numbers)
 # 13. Concatena la lista de personajes y de números
+numbers  = ['17', '20', '5', '10', '7']
+personajes = ['Jackie Chan', 'Jack Black', 'Drake Bell']
+lista_final = numbers + personajes
