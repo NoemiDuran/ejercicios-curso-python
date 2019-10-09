@@ -21,6 +21,8 @@ superheroes = [
 
 # a) ['Iron Man', 'Thor', 'Green Lantern']
 slice_1 = superheroes[:]
+#yo
+superheroes[1: ]
 
 # b) ['Wolverine', 'Flash', 'Green Lantern', 'Thor']
 slice_2 = superheroes[:]
@@ -35,7 +37,7 @@ slice_4 = superheroes[:]
 # 2. Omitiendo parámetros, obten las siguientes listas
 
 # a) ['Batman', 'Iron Man', 'Thor']
-slice_5 = superheroes[:]
+slice_5 = superheroes[0:]
 
 # b) ['Green Lantern', 'Flash', 'Wolverine']
 slice_6 = superheroes[:]
