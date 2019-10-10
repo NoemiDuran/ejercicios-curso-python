@@ -18,13 +18,19 @@ user = {
 
 # 2. Añade un nuevo par llave-valor al diccionario, por ejemplo: licenciatura
 user['licenciatura'] = 'cienciascompu'
+print(user['licenciatura'])
 
 # 3. Modifica los lenguajes favoritos de Mauricio, quitando Java de la lista
-
+del user['languages']
 # 4. Elimina "username" y "birthday" del diccionario usando dos métodos distintos
 #metodo 1
 del user['username']
 del user['birthday']
-
+print(user)
+#metodo 2
+user_dos = user.pop('username')
+user_tres = user.pop('birthday')
+print(user_dos)
+print(user_tres)
 # 5. Declara un nuevo diccionario vacío
 diccionario = { }
