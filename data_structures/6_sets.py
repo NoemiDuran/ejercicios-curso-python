@@ -16,15 +16,26 @@ even.add(12)
 # e imprímela en pantalla (ocupa ambos métodos vistos en clase)
 
 odds = {1, 3, 5, 7, 11, 13}
-nueva_variable = 
+nueva_variable = even.union(odds)
+print(nueva_variable)
+
 # 3. Usando el conjunto de pares (even), haz la interseccion con el siguiente conjunto
 
 numbers = {5, 4, 3, 2, 1}
 
+interseccion = even.intersection(numbers)
+print(interseccion)
+
 # 4. Guarda el resultado de restar el conjunto numbers a even en una variable
 # Ocupa ambos métodos vistos en clase
+
+resta_sets = numbers.difference(even)
+print(resta_sets)
 
 # 5. Dado el siguiente conjunto, elimina "German" de él.
 # Luego intenta eliminar "Spanish" sin generar un error.
 
 languages = {'English', 'French', 'German'}
+
+languages.remove('German')
+print(languages)
