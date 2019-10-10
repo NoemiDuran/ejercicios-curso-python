@@ -13,5 +13,6 @@ print(odds[2])
 # y explica qué pasó en un comentario
 
 # 3. Convierte la tupla en lista y añade un 9 al final
-list(odds)
+odds = list(odds)
 odds.append('9')
+print(odds)
