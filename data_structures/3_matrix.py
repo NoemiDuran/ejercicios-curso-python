@@ -18,9 +18,7 @@ matrix = [
     [10, 13]
 ]
 
-determinant = 0
-
 d1 = matrix[0][0]* matrix[1][1]
 d2 = matrix[0][1]* matrix[1][0]
-determinante= 17*13 - 10*49
 determinante= d1-d2
+print(determinante)
