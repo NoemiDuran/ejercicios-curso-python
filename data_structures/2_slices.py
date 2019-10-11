@@ -19,25 +19,24 @@ superheroes = [
 # 1. Obten las siguientes listas a partir de slices
 # Ojo: No puedes omitir parámetros
 
-# a) ['Iron Man', 'Thor', 'Green Lantern']
-slice_1 = superheroes[:]
-#yo
-superheroes[1: ]
+# a)  ['Iron Man', 'Thor', 'Green Lantern']
+slice_1 = ['Wolverine', 'Iron Man', 'Thor', 'Green Lantern']
+print(slice_1[1:4:2])
 
 # b) ['Wolverine', 'Flash', 'Green Lantern', 'Thor']
-slice_2 = superheroes[:]
+#nose
 
 # c) ['Batman', 'Thor', 'Flash']
-slice_3 = superheroes[:]
+#nose
 
-# d) ['Iron Man', 'Thor', 'Green Lantern']
-slice_4 = superheroes[:]
+# d) ['Iron Man', 'Thor', 'Green Lantern'] #este es el mismo que el a)
+
 
 
 # 2. Omitiendo parámetros, obten las siguientes listas
 
 # a) ['Batman', 'Iron Man', 'Thor']
-slice_5 = superheroes[0:]
+slice_5 = superheroes[:]
 
 # b) ['Green Lantern', 'Flash', 'Wolverine']
 slice_6 = superheroes[:]
