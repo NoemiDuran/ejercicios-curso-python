@@ -11,8 +11,10 @@ Objetivos de aprendizaje
 # 1. Obten la letra "C" en la siguiente cadena
 
 team = 'Raccoons Hacker Club'
+print(team[C])
 
 # 2. Usando slices, obten la palabra "Hacker" de la cadena
+print(team[1:2])
 
 # 3. Usando slices, obten la reversa de la cadena
 
